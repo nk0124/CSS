@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+	@keyframes chgclr{from{color:cornflowerblue;}to{color:palevioletred;}}
+		@keyframes showtext{from{opacity: 0%}to{opacity: 1}}
+		@keyframes chgw{from{width:0%}to{width:100%}}
+*{box-sizing: border-box;}
+		body{background:palevioletred;}
+		.container{background: white; width: 70%; margin: auto;
+			padding: 30px}
+		p{font-size: 14pt; padding: 10px; line-height: 1.8em;
+			text-align: justify;animation-name: showtext;animation-duration: 10s;}
+		a{text-decoration: none; background: cornflowerblue; color:white; padding:10px }
+		body{background: palevioletred;}
+		.container{background: white; width: 70%; margin: auto;
+			padding: 30px; text-align: center;}
+		h1{color:cornflowerblue;animation-name:chgclr;animation-duration:4s;animation-fill-mode:forwards; }
+		a{text-decoration: none; background: palevioletred; color:white; padding:10px}
+		hr{margin-top:40px;animation-name:chgw;animation-duration:4s;animation-iteration-count:infinite;animation-direction:alternate; }
+</style>
+</head>
+<body>
+    <div class="container">
+    <h1>CSS Animation</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <a href="#">Know More</a>
+    <hr>
+    	
+    </div>
+</body>
+</html>
